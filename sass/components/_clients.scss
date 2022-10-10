@@ -4,9 +4,7 @@
 }
 
 .client-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-center;
     fill: var(--color-not-hover);
     border: 1px solid #AFB1B8;
     border-radius: 4px;

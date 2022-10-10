@@ -23,10 +23,7 @@
 
 .social {
     margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    @extend %flex-center;
 }
 
 .social:nth-child(4) {

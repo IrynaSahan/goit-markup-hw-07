@@ -19,9 +19,7 @@
 .hero__title {
     margin-bottom: 30px;
     font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include font (44px,900,1.36);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-white-color);
@@ -32,9 +30,7 @@
 }
 
 .button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    @include font (16px,700,1.88);
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);

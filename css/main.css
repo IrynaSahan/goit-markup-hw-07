@@ -160,8 +160,8 @@ body {
 
 .header__logo {
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
@@ -216,8 +216,8 @@ body {
 .hero__title {
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -229,8 +229,8 @@ body {
 }
 
 .button {
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
@@ -333,9 +333,9 @@ body {
 .text-feature {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  font-weight: 700;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
